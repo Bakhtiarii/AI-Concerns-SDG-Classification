@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data files (large files should not be committed)
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.csv
+*.csv
+*.json
+!requirements.txt
+!package.json
+
+# Results and outputs
+results/*.csv
+results/*.json
+plots/*.png
+plots/*.jpg
+plots/*.pdf
+
+# Model checkpoints (if saving models locally)
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Google Colab
+.config/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
